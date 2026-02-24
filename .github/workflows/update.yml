@@ -1,8 +1,7 @@
 name: Auto Update Configs
 
 on:
-  schedule:
-    - cron: '0 */6 * * *' # اجرا هر 6 ساعت یکبار
+
   workflow_dispatch:      # امکان اجرا دستی دکمه‌ای
 
 permissions:
